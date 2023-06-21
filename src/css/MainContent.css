@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(69, 69, 225);
+}
+.startBuild{
+    height:  100px;
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex0-container{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    display:block;
+    border-radius: 15px;
+    background-color: #08032d;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    
+    font-size: 30px;
+    color: azure; 
+}
+.buildDescription {
+    display:block;
+    border-radius: 40px;
+    background-color: #160d5f;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    text-align: center;
+    
+    font-size: 30px;
+    color: azure;
+  }
+  
+  button{
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: aquamarine;
+  }
+  .componentsFilter{
+    display: flex;
+    
+  }
+  .componentsFilter button{
+   border-radius: 0px;
+    height: 50px;
+    background-color: #258a68;
+  }

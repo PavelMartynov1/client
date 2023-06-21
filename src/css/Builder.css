@@ -1,0 +1,60 @@
+.builder-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 16, 118);
+}
+.builder-container > div{
+    background-color: #552375;
+    width: 500px;
+    height: 600px;
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.orderButton{
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-size: 25px;
+    width:150px;
+    margin-top: 40px;
+
+}
+img{
+    height:200px;
+    width:200px;
+}
+.builder-container .column2{
+    width: 600px;
+    
+}
+.componentsFilter{
+    justify-content: center;
+    display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.componentsFilter > button{
+    margin:0;
+    width:100px;
+    border-radius: 5px;
+}
+.componentSelect{
+    display: flex;
+    background-color: #9f2a70;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.componentSelect > img{
+    width: 50px;
+    height: 50px;
+}
+.componentSelect > span{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.componentSelect > button{
+    margin-left: 40%;
+    margin-top: 30px;
+}
